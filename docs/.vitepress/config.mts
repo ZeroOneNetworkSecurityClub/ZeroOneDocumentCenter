@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "零壹文档中心",
   description: "零壹网络安全社团文件发布和技术文档公开站点",
-  base: '/ZeroOneDocumentCenter/',
+  // base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

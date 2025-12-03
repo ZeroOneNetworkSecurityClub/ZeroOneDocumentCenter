@@ -94,8 +94,6 @@ npm run docs:preview
 │   │       ├── index.ts      # 主题入口
 │   │       └── style.css     # 主题样式
 │   ├── index.md              # 首页
-│   ├── api-examples.md       # API 示例页面
-│   └── markdown-examples.md  # Markdown 示例页面
 ├── package.json              # 依赖和脚本
 └── README.md                 # 本文档
 ```
@@ -220,16 +218,6 @@ npx gh-pages -d docs/.vitepress/dist
 - 保持页面内容聚焦
 - 对组件使用代码分割
 
-## 贡献指南
-
-1. Fork 仓库
-2. 创建功能分支 (`git checkout -b feature/your-feature`)
-3. 进行更改
-4. 本地测试 (`npm run docs:dev`)
-5. 提交更改 (`git commit -am 'Add some feature'`)
-6. 推送到分支 (`git push origin feature/your-feature`)
-7. 创建新的 Pull Request
-
 ### 代码风格
 
 - 遵循 VitePress 和 Vue 最佳实践
@@ -303,35 +291,25 @@ VitePress 2.0 支持所有现代浏览器：
 - **依赖管理**: 通过 GitHub Actions 定期更新依赖
 - **安全头**: 部署配置中的适当安全头
 
-## 迁移指南
-
-### 从旧版本迁移
-
-该项目已从基于 PHP 的文档管理系统迁移到 VitePress 静态网站。主要变化：
-
-1. **技术栈**: PHP → VitePress + TypeScript
-2. **部署**: 手动 → GitHub Actions
-3. **内容存储**: LocalStorage → 静态 Markdown 文件
-4. **编辑**: Web 编辑器 → 本地 Markdown 文件
-5. **功能**: 移除动态功能，添加静态网站优化
-
 ## 贡献
 
 欢迎贡献！请遵循以下指南：
+
+## 贡献指南
+
+1. Fork 仓库
+2. 创建功能分支 (`git checkout -b feature/your-feature`)
+3. 进行更改
+4. 本地测试 (`npm run docs:dev`)
+5. 提交更改 (`git commit -am 'Add some feature'`)
+6. 推送到分支 (`git push origin feature/your-feature`)
+7. 创建新的 Pull Request
 
 ### 问题
 
 - 使用 GitHub Issues 报告 bug 或提出功能建议
 - 为 bug 提供清晰的复现步骤
 - 适当时包含截图
-
-### Pull Requests
-
-1. Fork 仓库
-2. 创建功能分支
-3. 进行更改
-4. 使用 `npm run docs:dev` 本地测试
-5. 提交 pull request
 
 ### 代码规范
 
@@ -343,18 +321,7 @@ VitePress 2.0 支持所有现代浏览器：
 
 ## 许可证
 
-MIT 许可证 - 详见 LICENSE 文件
-
-## 变更日志
-
-### 版本 2.0.0 (主要更新)
-- ✅ 迁移到 VitePress 2.0
-- ✅ 添加 GitHub Actions 部署
-- ✅ 实现自定义主题
-- ✅ 添加 TypeScript 支持
-- ✅ 增强 Markdown 功能
-- ✅ 改进性能和 SEO
-- ✅ 添加全面的文档
+GPL-3.0 许可证 - 详见 LICENSE 文件
 
 ## 支持
 

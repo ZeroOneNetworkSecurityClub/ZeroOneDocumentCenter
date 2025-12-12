@@ -1,6 +1,6 @@
 import {DefaultTheme} from "vitepress";
 
-function phpPath(): DefaultTheme.NavItem[] {
+function phpPath(): DefaultTheme.SidebarItem[] {
     return [
         {text: "变量覆盖", link: "/web/middleware/1.变量覆盖"},
         {text: "弱比较", link: "/web/middleware/2.弱比较"},
